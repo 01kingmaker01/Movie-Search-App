@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 100%;
+  background: rgb(237, 64, 98); /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    rgb(255, 237, 189),
+    rgb(237, 64, 98)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgb(255, 237, 189),
+    rgb(237, 64, 98)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.sd {
+  -webkit-text-stroke: 0.2px black;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.4);
+}
+
+.jumbotron {
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.4);
+}
+
+.ytrewq {
+  border-radius: 0.25rem;
+  background: rgba(145, 47, 66, 0.781); /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(139, 130, 104, 0.781),
+    rgba(145, 47, 66, 0.781)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(139, 130, 104, 0.781),
+    rgba(145, 47, 66, 0.781)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 1000px;
+  font-weight: 500;
+}
+span {
+  color: red;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.25);
+}
+
+.navbg {
+  background: #8a2387; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #f27121,
+    #e94057,
+    #8a2387
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #f27121,
+    #e94057,
+    #8a2387
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.qwerty {
+  border-radius: 0.25rem;
+
+  margin: 100px auto;
+  width: 35%;
+  min-width: 300px;
+  box-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1),
+    0 18px 23px rgba(0, 0, 0, 0.1);
+
+  /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.1); */
+}
+input {
+  padding: 13px 13px 13px 20px;
+  margin: 0;
+  width: 100%;
+  font-size: 18px;
+  color: #2980b9;
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+input:focus {
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+::placeholder {
+  color: rgba(94, 85, 62, 0.452);
+}
+
+h3 {
+  border: gold 1px solid;
+  border-radius: 100px;
+  width: auto;
+  background: rgb(255, 237, 189);
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 24px;
+}
+
+li {
+  height: 40px;
+  line-height: 40px;
+  box-sizing: border-box;
+}
+
+#btnr {
+  border-radius: 100px !important;
+  min-width: 250px;
+}

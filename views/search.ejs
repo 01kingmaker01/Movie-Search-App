@@ -1,0 +1,19 @@
+<%- include ("partials/header.ejs")%>
+<div class="container">
+  <div class="jumbotron bg-transparent text-white text-center mt-5 ytrewq">
+    <h1 class="pt-1 sd pb-3 text-center font-italic"><i class="fas fa-photo-video"></i> Filmz</h1>
+    <h4 >Welcome to FILMZ!</h4>
+    <h6>Search your favorite <span>&#9829</span> Movies on FILMZ </h6>
+  </div>
+
+
+  <div class="jumbotron bg-transparent qwerty">
+    <form action="/results" autocomplete="off">
+      <label for="movie">Movie Title</label>
+      <input placeholder="Type Movie TITLE" id="movie" type="text" name="name" required/>
+      <button type="submit" class="btn btn-danger mt-2 btn-block">Search</button>
+    </form>
+  </div>
+
+</div>
+<%- include ("partials/footer.ejs")%>

@@ -1,0 +1,38 @@
+<%- include ("partials/header.ejs")%>
+<div class="container">
+  <div class="text-white text-center pb-3 mt-3 ytrewq">
+    <%if (typeof results === "undefined") {%>
+    <h2 class="text-center p-3 mb-3">
+      Movies with Title : <%=title.toUpperCase()%>
+    </h2>
+    <h5 id="btnr" class="font-weight-bold font-italic m-3 p-3">
+      MOVIE not Found !!
+    </h5>
+  </div>
+
+  <%} else {%>
+  <div class="ytrewq text-white mt-3">
+    <h2 class="text-center p-3">
+      Movies with Title - <%=title.toUpperCase()%>
+    </h2>
+    <ul class="mt-2">
+      <% for(var i=0; i< results.length;i++){ %>
+
+      <li style="height: auto;">
+        <strong><%= results[i]["Title"] %></strong> -
+        <i><%= results[i]["Year"] %></i>
+      </li>
+
+      <% } %>
+    </ul>
+  </div>
+  <%}%>
+
+  <div class="qwerty text-center text-white">
+    <h4 class="p-4">Want to Search another MOVIE?</h4>
+    <button id="btnr" class="btn align-items-center btn-danger m-3">
+      <a href="/" class="text-white"> Search Again! </a>
+    </button>
+  </div>
+</div>
+<%- include ("partials/footer.ejs")%>
