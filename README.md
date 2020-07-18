@@ -15,7 +15,7 @@ Vist my app on :- [live Site](https://filmzz.herokuapp.com/)
 > - Heroku (Deployed on Heroku)
 
 # My package.json 
-```JSON
+```json
 {
   "name": "Filmzz",
   "version": "1.0.0",
